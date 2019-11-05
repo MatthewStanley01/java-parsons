@@ -1,0 +1,6 @@
+To run the Selenium acceptance tests:
+1. Run Application
+2. Run the Selenium test(s)
+
+This is required as the acceptance tests do not create their own instance of the Application
+therefore the Application must be running for the acceptance tests to be run

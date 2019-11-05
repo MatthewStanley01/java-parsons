@@ -1,0 +1,95 @@
+body {
+    background-color: #c0c0c0;
+    text-align: center;
+}
+
+h1 {
+    color: #6758a6;
+}
+
+h2 {
+    color: #6758a6;
+}
+
+h3 {
+    color: #6758a6;
+}
+
+div {
+    display: block;
+    background-color: #6758a6;
+    border: #c0c0c0;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#runner-output::before {
+    content: "Output:";
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: fit-content;
+}
+
+#runner-output {
+    background-color: lightskyblue;
+}
+
+#correct-answer {
+    background-color: rgb(135, 211, 100);
+}
+
+#incorrect-answer {
+    background-color: rgb(255, 61, 61);
+}
+
+#information {
+    background-color: rgb(255, 192, 55);
+}
+
+#input-box{
+    background-color: #ccccff;
+}
+
+#ExerciseList{
+    background-color: #c0c0c0;
+    border: none;
+    font-family: "Times New Roman";
+    color: #6758a6;
+    font-size: 20px;
+    text-align-last: center;
+}
+
+.codebox {
+    visibility: hidden;
+    background-color: rgb(200, 200, 200);
+    pointer-events: none;
+}
+
+.output {
+    display: none;
+    margin: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.epe {
+    font-family: "Consolas";
+    padding: 5px;
+    border-width: 5px;
+    border-color: #6758a6;
+    width: 75%;
+    background-color: #b0b0ff;
+}
+
+.submit{
+    background-color: #342953;
+    color: #b0b0ff;
+    border: none;
+    font-family: "Times New Roman";
+    text-align: center;
+    padding: 7px;
+    font-size: 15px;
+}
